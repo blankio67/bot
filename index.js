@@ -1,1 +1,244 @@
-const _0x5750f9=_0x1024;function _0x1024(_0x5b9a8e,_0x54c440){const _0x8be4dc=_0x8be4();return _0x1024=function(_0x1024f8,_0x3a2422){_0x1024f8=_0x1024f8-0xeb;let _0x22759f=_0x8be4dc[_0x1024f8];return _0x22759f;},_0x1024(_0x5b9a8e,_0x54c440);}(function(_0x51b86f,_0x2f7ea1){const _0x52ee3d=_0x1024,_0x24b532=_0x51b86f();while(!![]){try{const _0x155974=parseInt(_0x52ee3d(0x136))/0x1*(-parseInt(_0x52ee3d(0x135))/0x2)+-parseInt(_0x52ee3d(0x141))/0x3*(-parseInt(_0x52ee3d(0x100))/0x4)+parseInt(_0x52ee3d(0x13c))/0x5+parseInt(_0x52ee3d(0x118))/0x6+parseInt(_0x52ee3d(0x10d))/0x7+-parseInt(_0x52ee3d(0x10e))/0x8*(parseInt(_0x52ee3d(0xef))/0x9)+parseInt(_0x52ee3d(0x127))/0xa*(-parseInt(_0x52ee3d(0x11a))/0xb);if(_0x155974===_0x2f7ea1)break;else _0x24b532['push'](_0x24b532['shift']());}catch(_0xfb8f0e){_0x24b532['push'](_0x24b532['shift']());}}}(_0x8be4,0xb0d1b));const {Client,GatewayIntentBits,Partials,REST,Routes,ActionRowBuilder,ButtonBuilder,ButtonStyle,ChannelType,ModalBuilder,TextInputBuilder,TextInputStyle,EmbedBuilder}=require(_0x5750f9(0x12c)),client=new Client({'intents':[GatewayIntentBits[_0x5750f9(0x109)],GatewayIntentBits[_0x5750f9(0x13e)],GatewayIntentBits[_0x5750f9(0x12b)],GatewayIntentBits[_0x5750f9(0x10a)]],'partials':[Partials['Channel']]}),TOKEN=_0x5750f9(0x10c),CLIENT_ID=_0x5750f9(0x114),GUILD_ID=_0x5750f9(0xfe),LOG_CHANNEL_ID='1414453183773802576',commands=[{'name':_0x5750f9(0xf0),'description':_0x5750f9(0x143),'options':[{'name':_0x5750f9(0x132),'description':_0x5750f9(0xed),'type':0x1,'options':[{'name':_0x5750f9(0x13f),'description':_0x5750f9(0x120),'type':0x3,'required':!![]}]}]}],rest=new REST({'version':'10'})['setToken'](TOKEN);function _0x8be4(){const _0x1f876a=['roles','isChatInputCommand','Setup\x20the\x20ticket\x20panel','ticket_form','2259189sbypZG','ticket','ViewChannel','channel','getTextInputValue','send_response_','applicationGuildCommands','Welcome\x20to\x20the\x20Ticket\x20Support\x20System!\x0aClick\x20the\x20button\x20below\x20to\x20open\x20a\x20ticket!','setTitle','Ticket\x20closed\x20✅','response_message','options','response_modal_','setLabel','Danger','1414453181978509365','split','5988jUBjuC','Is\x20this\x20a\x20Discord\x20problem?\x20(Yes/No)','isButton','showModal','discord_problem','\x0a**Problem**:\x20','problem','user','open_ticket','Guilds','MessageContent','✅\x20Logged\x20in\x20as\x20','MTQxNzM0NjcxMDg2MjE2ODE1Ng.G43HbZ.UsaO1g6kfA_bvM7oA8DCeWOBPUitTUgGCc0B8A','2580592PBAvPD','8fzrRXI','Short','log','setRequired','✅\x20Slash\x20commands\x20registered.','Paragraph','1417346710862168156','customId','commandName','addComponents','5255178NDDJFM','username','1551OGqmLv','Have\x20you\x20read\x20the\x20rules?\x20(Yes/No)','rules','>\x20in\x20','Hey!\x20Our\x20staff\x20will\x20respond\x20to\x20your\x20ticket\x20within\x20the\x20hour,\x20if\x20not\x20then\x20in\x202\x20-\x204\x20hours!','setDescription','Panel\x20name','Blue','**\x0aWelcome\x20to\x20ticket\x20setup\x20V2','fields','startsWith','close_ticket_','put','17770xIonbH','create','everyone','Response\x20to\x20user','DirectMessages','discord.js','setStyle','guild','setCustomId','Problem\x20you\x27re\x20having?','**New\x20Ticket**','setup','login','ready','809142uXsNQL','3npQiZn','interactionCreate','fetch','setColor','send','reply','5787990ulFgng','SendMessages','GuildMessages','name','GuildText','75Aibxxp','delete','Ticket\x20commands','channels','users','error'];_0x8be4=function(){return _0x1f876a;};return _0x8be4();}((async()=>{const _0x309aeb=_0x5750f9;try{await rest[_0x309aeb(0x126)](Routes[_0x309aeb(0xf5)](CLIENT_ID,GUILD_ID),{'body':commands}),console['log'](_0x309aeb(0x112));}catch(_0x249b2c){console[_0x309aeb(0x146)](_0x249b2c);}})()),client['on'](_0x5750f9(0x134),()=>{const _0x3297e3=_0x5750f9;console[_0x3297e3(0x110)](_0x3297e3(0x10b)+client[_0x3297e3(0x107)]['tag']);}),client['on'](_0x5750f9(0x137),async _0x538c24=>{const _0x332321=_0x5750f9;if(!_0x538c24[_0x332321(0xec)]())return;if(_0x538c24[_0x332321(0x116)]===_0x332321(0xf0)&&_0x538c24['options']['getSubcommand']()===_0x332321(0x132)){const _0x5e456e=_0x538c24[_0x332321(0xfa)]['getString']('name'),_0x56a991=new EmbedBuilder()[_0x332321(0xf7)](''+_0x538c24[_0x332321(0x12e)]['name'])[_0x332321(0x11f)](_0x332321(0xf6))[_0x332321(0x139)](_0x332321(0x121)),_0x6df90a=new ActionRowBuilder()['addComponents'](new ButtonBuilder()[_0x332321(0x12f)](_0x332321(0x108))[_0x332321(0xfc)]('Support')[_0x332321(0x12d)](ButtonStyle['Primary']));await _0x538c24[_0x332321(0x13b)]({'content':'**'+_0x5e456e+_0x332321(0x122),'embeds':[_0x56a991],'components':[_0x6df90a]});}}),client['on'](_0x5750f9(0x137),async _0x573a2d=>{const _0x5b003c=_0x5750f9;if(!_0x573a2d[_0x5b003c(0x102)]())return;if(_0x573a2d[_0x5b003c(0x115)]===_0x5b003c(0x108)){const _0x24ecdb=new ModalBuilder()['setCustomId'](_0x5b003c(0xee))[_0x5b003c(0xf7)]('Tickets\x20RegaurdV1'),_0x2ebb68=new TextInputBuilder()[_0x5b003c(0x12f)]('username')[_0x5b003c(0xfc)]('In\x20Game\x20Username')[_0x5b003c(0x12d)](TextInputStyle[_0x5b003c(0x10f)])['setRequired'](!![]),_0x5556a1=new TextInputBuilder()[_0x5b003c(0x12f)](_0x5b003c(0x106))[_0x5b003c(0xfc)](_0x5b003c(0x130))[_0x5b003c(0x12d)](TextInputStyle[_0x5b003c(0x113)])['setRequired'](!![]),_0x3ad405=new TextInputBuilder()[_0x5b003c(0x12f)](_0x5b003c(0x104))[_0x5b003c(0xfc)](_0x5b003c(0x101))['setStyle'](TextInputStyle[_0x5b003c(0x10f)])['setRequired'](!![]),_0x488ac4=new TextInputBuilder()[_0x5b003c(0x12f)](_0x5b003c(0x11c))[_0x5b003c(0xfc)](_0x5b003c(0x11b))['setStyle'](TextInputStyle['Short'])[_0x5b003c(0x111)](!![]);_0x24ecdb[_0x5b003c(0x117)](new ActionRowBuilder()[_0x5b003c(0x117)](_0x2ebb68),new ActionRowBuilder()[_0x5b003c(0x117)](_0x5556a1),new ActionRowBuilder()[_0x5b003c(0x117)](_0x3ad405),new ActionRowBuilder()[_0x5b003c(0x117)](_0x488ac4)),await _0x573a2d['showModal'](_0x24ecdb);}if(_0x573a2d[_0x5b003c(0x115)][_0x5b003c(0x124)](_0x5b003c(0xf4))){const _0x104390=_0x573a2d[_0x5b003c(0x115)][_0x5b003c(0xff)]('_')[0x2],_0x242488=new ModalBuilder()['setCustomId'](_0x5b003c(0xfb)+_0x104390)[_0x5b003c(0xf7)]('Send\x20Response'),_0x1b0c2d=new TextInputBuilder()['setCustomId']('response_message')['setLabel'](_0x5b003c(0x12a))[_0x5b003c(0x12d)](TextInputStyle['Paragraph'])[_0x5b003c(0x111)](!![]);_0x242488[_0x5b003c(0x117)](new ActionRowBuilder()[_0x5b003c(0x117)](_0x1b0c2d)),await _0x573a2d[_0x5b003c(0x103)](_0x242488);}if(_0x573a2d['customId'][_0x5b003c(0x124)]('close_ticket_')){await _0x573a2d[_0x5b003c(0x13b)]({'content':_0x5b003c(0xf8),'ephemeral':!![]});const _0x20579c=_0x573a2d[_0x5b003c(0xf2)];setTimeout(()=>_0x20579c[_0x5b003c(0x142)]()['catch'](()=>{}),0xbb8);}}),client['on'](_0x5750f9(0x137),async _0x3c85a3=>{const _0x5121e5=_0x5750f9;if(!_0x3c85a3['isModalSubmit']())return;if(_0x3c85a3[_0x5121e5(0x115)]===_0x5121e5(0xee)){const _0x8f3dee=_0x3c85a3[_0x5121e5(0x123)][_0x5121e5(0xf3)](_0x5121e5(0x119)),_0x342384=_0x3c85a3[_0x5121e5(0x123)][_0x5121e5(0xf3)]('problem'),_0x3ffcaf=_0x3c85a3[_0x5121e5(0x123)][_0x5121e5(0xf3)]('discord_problem'),_0x1ad860=_0x3c85a3['fields'][_0x5121e5(0xf3)](_0x5121e5(0x11c)),_0x5dc232=await _0x3c85a3[_0x5121e5(0x12e)]['channels'][_0x5121e5(0x128)]({'name':'ticket-'+_0x3c85a3[_0x5121e5(0x107)][_0x5121e5(0x119)],'type':ChannelType[_0x5121e5(0x140)],'permissionOverwrites':[{'id':_0x3c85a3['guild'][_0x5121e5(0xeb)][_0x5121e5(0x129)]['id'],'deny':[_0x5121e5(0xf1)]},{'id':_0x3c85a3[_0x5121e5(0x107)]['id'],'allow':[_0x5121e5(0xf1),_0x5121e5(0x13d),'ReadMessageHistory']}]}),_0x379b6e=new EmbedBuilder()[_0x5121e5(0xf7)](_0x5121e5(0x131))[_0x5121e5(0x11f)]('**User:**\x20<@'+_0x3c85a3[_0x5121e5(0x107)]['id']+'>\x0a**Minecraft\x20Username**:\x20'+_0x8f3dee+_0x5121e5(0x105)+_0x342384+'\x0a**Is\x20this\x20a\x20Discord\x20Problem**:\x20'+_0x3ffcaf+'\x0a**Have\x20you\x20read\x20rules?**:\x20'+_0x1ad860)[_0x5121e5(0x139)]('Green'),_0xc7ac6=new ActionRowBuilder()[_0x5121e5(0x117)](new ButtonBuilder()['setCustomId'](_0x5121e5(0xf4)+_0x3c85a3[_0x5121e5(0x107)]['id'])[_0x5121e5(0xfc)]('Send\x20Response')[_0x5121e5(0x12d)](ButtonStyle['Primary']),new ButtonBuilder()[_0x5121e5(0x12f)](_0x5121e5(0x125)+_0x3c85a3[_0x5121e5(0x107)]['id'])[_0x5121e5(0xfc)]('Close\x20Ticket')[_0x5121e5(0x12d)](ButtonStyle[_0x5121e5(0xfd)]));await _0x5dc232[_0x5121e5(0x13a)]({'embeds':[_0x379b6e],'components':[_0xc7ac6]});try{await _0x3c85a3[_0x5121e5(0x107)][_0x5121e5(0x13a)](_0x5121e5(0x11e));}catch{}const _0x285f39=await _0x3c85a3[_0x5121e5(0x12e)][_0x5121e5(0x144)][_0x5121e5(0x138)](LOG_CHANNEL_ID);_0x285f39&&await _0x285f39[_0x5121e5(0x13a)]({'content':'📩\x20Ticket\x20created\x20by\x20<@'+_0x3c85a3[_0x5121e5(0x107)]['id']+_0x5121e5(0x11d)+_0x5dc232}),await _0x3c85a3[_0x5121e5(0x13b)]({'content':'✅\x20Ticket\x20created:\x20'+_0x5dc232,'ephemeral':!![]});}if(_0x3c85a3[_0x5121e5(0x115)][_0x5121e5(0x124)]('response_modal_')){const _0xaf4465=_0x3c85a3[_0x5121e5(0x115)][_0x5121e5(0xff)]('_')[0x2],_0x2d6076=_0x3c85a3[_0x5121e5(0x123)]['getTextInputValue'](_0x5121e5(0xf9));try{const _0x2bd36e=await client[_0x5121e5(0x145)][_0x5121e5(0x138)](_0xaf4465);await _0x2bd36e[_0x5121e5(0x13a)]('📩\x20Staff\x20Response:\x0a'+_0x2d6076);}catch{}await _0x3c85a3[_0x5121e5(0x13b)]({'content':'✅\x20Response\x20sent\x20to\x20user\x20via\x20DM','ephemeral':!![]});}}),client[_0x5750f9(0x133)](TOKEN);
+// index.js
+const { 
+  Client, 
+  GatewayIntentBits, 
+  Partials, 
+  REST, 
+  Routes,
+  ActionRowBuilder,
+  ButtonBuilder,
+  ButtonStyle,
+  ChannelType,
+  ModalBuilder,
+  TextInputBuilder,
+  TextInputStyle,
+  EmbedBuilder
+} = require("discord.js");
+
+const client = new Client({
+  intents: [
+    GatewayIntentBits.Guilds,
+    GatewayIntentBits.GuildMessages,
+    GatewayIntentBits.DirectMessages,
+    GatewayIntentBits.MessageContent
+  ],
+  partials: [Partials.Channel]
+});
+
+// ==== CONFIG ====
+const TOKEN = "MTQxNzM0NjcxMDg2MjE2ODE1Ng.G43HbZ.UsaO1g6kfA_bvM7oA8DCeWOBPUitTUgGCc0B8A";
+const CLIENT_ID = "1417346710862168156";
+const GUILD_ID = "1414453181978509365";
+const LOG_CHANNEL_ID = "1414453183773802576"; // Ticket logs
+
+// ==== REGISTER SLASH COMMAND ====
+const commands = [
+  {
+    name: "ticket",
+    description: "Ticket commands",
+    options: [
+      {
+        name: "setup",
+        description: "Setup the ticket panel",
+        type: 1,
+        options: [
+          {
+            name: "name",
+            description: "Panel name",
+            type: 3,
+            required: true
+          }
+        ]
+      }
+    ]
+  }
+];
+
+const rest = new REST({ version: "10" }).setToken(TOKEN);
+(async () => {
+  try {
+    await rest.put(Routes.applicationGuildCommands(CLIENT_ID, GUILD_ID), { body: commands });
+    console.log("✅ Slash commands registered.");
+  } catch (err) {
+    console.error(err);
+  }
+})();
+
+// ==== BOT EVENTS ====
+client.on("ready", () => {
+  console.log(`✅ Logged in as ${client.user.tag}`);
+});
+
+// ==== SLASH COMMAND HANDLER ====
+client.on("interactionCreate", async (interaction) => {
+  if (!interaction.isChatInputCommand()) return;
+
+  if (interaction.commandName === "ticket" && interaction.options.getSubcommand() === "setup") {
+    const name = interaction.options.getString("name");
+
+    const embed = new EmbedBuilder()
+      .setTitle(`${interaction.guild.name}`)
+      .setDescription(`Welcome to the Ticket Support System!\nClick the button below to open a ticket!`)
+      .setColor("Blue");
+
+    const row = new ActionRowBuilder().addComponents(
+      new ButtonBuilder()
+        .setCustomId("open_ticket")
+        .setLabel("Support")
+        .setStyle(ButtonStyle.Primary)
+    );
+
+    await interaction.reply({ 
+      content: `**${name}**\nWelcome to ticket setup V2`, 
+      embeds: [embed], 
+      components: [row] 
+    });
+  }
+});
+
+// ==== BUTTON HANDLER ====
+client.on("interactionCreate", async (interaction) => {
+  if (!interaction.isButton()) return;
+
+  // OPEN TICKET
+  if (interaction.customId === "open_ticket") {
+    // Modal for ticket questions
+    const modal = new ModalBuilder()
+      .setCustomId("ticket_form")
+      .setTitle("Tickets RegaurdV1");
+
+    const q1 = new TextInputBuilder()
+      .setCustomId("username")
+      .setLabel("In Game Username")
+      .setStyle(TextInputStyle.Short)
+      .setRequired(true);
+
+    const q2 = new TextInputBuilder()
+      .setCustomId("problem")
+      .setLabel("Problem you're having?")
+      .setStyle(TextInputStyle.Paragraph)
+      .setRequired(true);
+
+    const q3 = new TextInputBuilder()
+      .setCustomId("discord_problem")
+      .setLabel("Is this a Discord problem? (Yes/No)")
+      .setStyle(TextInputStyle.Short)
+      .setRequired(true);
+
+    const q4 = new TextInputBuilder()
+      .setCustomId("rules")
+      .setLabel("Have you read the rules? (Yes/No)")
+      .setStyle(TextInputStyle.Short)
+      .setRequired(true);
+
+    modal.addComponents(
+      new ActionRowBuilder().addComponents(q1),
+      new ActionRowBuilder().addComponents(q2),
+      new ActionRowBuilder().addComponents(q3),
+      new ActionRowBuilder().addComponents(q4)
+    );
+
+    await interaction.showModal(modal);
+  }
+
+  // SEND RESPONSE
+  if (interaction.customId.startsWith("send_response_")) {
+    const userId = interaction.customId.split("_")[2];
+
+    const modal = new ModalBuilder()
+      .setCustomId(`response_modal_${userId}`)
+      .setTitle("Send Response");
+
+    const input = new TextInputBuilder()
+      .setCustomId("response_message")
+      .setLabel("Response to user")
+      .setStyle(TextInputStyle.Paragraph)
+      .setRequired(true);
+
+    modal.addComponents(new ActionRowBuilder().addComponents(input));
+    await interaction.showModal(modal);
+  }
+
+  // CLOSE TICKET
+  if (interaction.customId.startsWith("close_ticket_")) {
+    await interaction.reply({ content: "Ticket closed ✅", ephemeral: true });
+    const channel = interaction.channel;
+    setTimeout(() => channel.delete().catch(() => {}), 3000);
+  }
+});
+
+// ==== MODAL SUBMISSION HANDLER ====
+client.on("interactionCreate", async (interaction) => {
+  if (!interaction.isModalSubmit()) return;
+
+  // Ticket form
+  if (interaction.customId === "ticket_form") {
+    const username = interaction.fields.getTextInputValue("username");
+    const problem = interaction.fields.getTextInputValue("problem");
+    const discordProblem = interaction.fields.getTextInputValue("discord_problem");
+    const rules = interaction.fields.getTextInputValue("rules");
+
+    const ticketChannel = await interaction.guild.channels.create({
+      name: `ticket-${interaction.user.username}`,
+      type: ChannelType.GuildText,
+      permissionOverwrites: [
+        {
+          id: interaction.guild.roles.everyone.id,
+          deny: ["ViewChannel"]
+        },
+        {
+          id: interaction.user.id,
+          allow: ["ViewChannel", "SendMessages", "ReadMessageHistory"]
+        }
+      ]
+    });
+
+    const embed = new EmbedBuilder()
+      .setTitle("**New Ticket**")
+      .setDescription(`**User:** <@${interaction.user.id}>\n**Minecraft Username**: ${username}\n**Problem**: ${problem}\n**Is this a Discord Problem**: ${discordProblem}\n**Have you read rules?**: ${rules}`)
+      .setColor("Green");
+
+    const row = new ActionRowBuilder().addComponents(
+      new ButtonBuilder()
+        .setCustomId(`send_response_${interaction.user.id}`)
+        .setLabel("Send Response")
+        .setStyle(ButtonStyle.Primary),
+      new ButtonBuilder()
+        .setCustomId(`close_ticket_${interaction.user.id}`)
+        .setLabel("Close Ticket")
+        .setStyle(ButtonStyle.Danger)
+    );
+
+    await ticketChannel.send({ embeds: [embed], components: [row] });
+
+    // Send DM to user
+    try {
+      await interaction.user.send(
+        "Hey! Our staff will respond to your ticket within the hour, if not then in 2 - 4 hours!"
+      );
+    } catch {}
+
+    // Send log
+    const logChannel = await interaction.guild.channels.fetch(LOG_CHANNEL_ID);
+    if (logChannel) {
+      await logChannel.send({ content: `📩 Ticket created by <@${interaction.user.id}> in ${ticketChannel}` });
+    }
+
+    await interaction.reply({ content: `✅ Ticket created: ${ticketChannel}`, ephemeral: true });
+  }
+
+  // Response modal
+  if (interaction.customId.startsWith("response_modal_")) {
+    const userId = interaction.customId.split("_")[2];
+    const responseMsg = interaction.fields.getTextInputValue("response_message");
+
+    try {
+      const user = await client.users.fetch(userId);
+      await user.send(`📩 Staff Response:\n${responseMsg}`);
+    } catch {}
+
+    await interaction.reply({ content: "✅ Response sent to user via DM", ephemeral: true });
+  }
+});
+
+client.login(TOKEN);
